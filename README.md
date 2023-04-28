@@ -1,4 +1,4 @@
-#Currículo Online
+# Currículo Online
 
 Desenvolvi um currículo online para aguçar minha criatividade e também colocar em prática alguns conhecimentos.
 
