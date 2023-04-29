@@ -35,13 +35,33 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 7% 20%;
+    margin: 3% 20%;
 }
+
+.imagem {
+    transition: transform 0.5s;
+    animation: girar 1s linear;
+  }
+  
+  @keyframes girar {
+    0% {
+      transform: rotatey(0deg);
+    }
+    100% {
+      transform: rotatey(360deg);
+    }
+}
+
+  .imagem:hover {
+    transform: scale(1.9);
+    transition-timing-function: linear;
+  }
+  
 
 .apresentacao-conteudo {
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 32px;
     font-family: 'Inconsolata', monospace;
 }
 
@@ -72,10 +92,12 @@ body {
 }
 
 .github:hover {
-    box-shadow: 10%;
+    transform: scale(0.9);
+    transition-timing-function: linear;
 }
 
 .linkedin:hover {
     opacity: 0.8;
+    transform: scale(0.9);
+    transition-timing-function: linear;
 }
-
