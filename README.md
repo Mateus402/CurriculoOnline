@@ -6,6 +6,8 @@
 
 Desenvolvi um currículo online para aguçar minha criatividade e também colocar em prática alguns conhecimentos.
 
+Site hospedado pela Vercel.
+
 ## ✔️ Tecnologias utilizadas
 
 - ``HTML5``
