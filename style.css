@@ -87,13 +87,30 @@ body {
 
 .apresentacao-conteudo-links-link {
     display: flex;
-    gap: 5%;
+    gap: 10%;
     align-items: center;
+}
+
+.linkedin {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    gap: 6px;
+    color: black;
+}
+
+.github {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    gap: 6px;
+    color: black;
 }
 
 .github:hover {
     transform: scale(1.1);
     transition-timing-function: linear;
+    opacity: 0.8;
 }
 
 .linkedin:hover {
