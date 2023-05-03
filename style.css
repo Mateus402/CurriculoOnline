@@ -39,6 +39,7 @@ body {
 }
 
 .imagem {
+    width: 20%;
     transition: transform 0.5s;
     animation: girar 1s linear;
   }
@@ -59,10 +60,12 @@ body {
   
 
 .apresentacao-conteudo {
+    width: 80%;
     display: flex;
     flex-direction: column;
     gap: 32px;
     font-family: 'Inconsolata', monospace;
+    padding: 0% 4% 0% 0%;
 }
 
 .apresentacao-conteudo-titulo {
@@ -119,3 +122,43 @@ body {
     transition-timing-function: linear;
 }
 
+@media (max-width: 1000px) {
+    .cabecalho {
+        font-size: 0.8rem;
+        padding: 0;
+        margin: 3%;
+    }
+
+    .cabecalho-menu {
+        gap: 30px;
+
+    }
+
+    .apresentacao {
+        flex-direction: column-reverse;
+    }
+
+    .imagem {
+        padding: 2%;
+    }
+
+    .apresentacao-conteudo {
+        gap: 8px;
+    }
+
+    .apresentacao-conteudo-links {
+        font-size: 0.9rem;
+        gap: 0;
+        margin-top: 4%;
+        margin-bottom: 10%;
+    }
+
+    .apresentacao-conteudo-titulo {
+        font-size: 1.2rem;
+    }
+
+    .apresentacao-conteudo-subtitulo {
+        /* text-align: center; */
+        font-size: 0.9rem;
+    }
+}
