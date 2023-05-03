@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Inconsolata:wght@200&family=Indie+Flower&family=Teko&display=swap');
 
 body {
-    background: linear-gradient(180deg, black 0%, rgb(176, 245, 245) 0%, rgb(165, 199, 236), rgb(217, 222, 228) );
-    height: 100vw;
+    background: linear-gradient(to bottom, rgb(176, 245, 245), rgb(165, 199, 236), rgb(217, 222, 228));
+    height: 100vw; 
     box-sizing: border-box;
 }
 
@@ -118,3 +118,4 @@ body {
     transform: scale(1.1);
     transition-timing-function: linear;
 }
+
