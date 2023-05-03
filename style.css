@@ -123,6 +123,10 @@ body {
     transition-timing-function: linear;
 }
 
+.apresentacao-conteudo-lista {
+    list-style-type: none;
+}
+
 @media (max-width: 1000px) {
     .cabecalho {
         font-size: 0.8rem;
