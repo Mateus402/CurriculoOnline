@@ -132,7 +132,7 @@ body {
 
     .cabecalho-menu {
         gap: 30px;
-
+        text-align: center;
     }
 
     .apresentacao {
@@ -147,7 +147,7 @@ body {
 
     .apresentacao-conteudo {
         gap: 8px;
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
 
     .apresentacao-conteudo-links {
@@ -168,6 +168,6 @@ body {
 
     .apresentacao-conteudo-subtitulo {
         /* text-align: center; */
-        font-size: 0.9rem;
+        font-size: 1rem;
     }
 }
